@@ -26,12 +26,21 @@ defaultbrowser browser
 
 brew install rectangle
 brew install obs
+brew install discord
+brew install kubectl
+brew install asdf
+
+asdf install node
+asdf plugin add nodejs
+asdf install nodejs latest:20
+asdf global nodejs latest:20
 ```
 
-Настройка прав
+Setup rights for apps
 ```shell
 open -a "altTab"
 open -a "Rectangle"
 open -a "OBS"
 
 ```
+
