@@ -15,9 +15,6 @@ brew install awscli    # AWS cli
 brew install visual-studio-code
 brew install lens
 
-brew install spaceship
-echo "source $(brew --prefix)/opt/spaceship/spaceship.zsh" >>! ~/.zshrc
-
 brew install --cask alt-tab # https://alt-tab-macos.netlify.app
 
 
@@ -29,6 +26,7 @@ brew install obs
 brew install discord
 brew install kubectl
 brew install asdf
+brew install mysql-client
 
 asdf install node
 asdf plugin add nodejs
@@ -44,3 +42,10 @@ open -a "OBS"
 
 ```
 
+Oh my zsh
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+# Set ZSH_THEME="spaceship" in your .zshrc.
+```
