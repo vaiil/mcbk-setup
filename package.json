@@ -1,0 +1,14 @@
+{
+  "name": "mcbk-setup",
+  "version": "1.0.0",
+  "description": "## Apps: * https://brew.sh/ * https://arc.net/ * https://1password.com/downloads/mac/ * https://www.backblaze.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yaml": "^2.3.4"
+  }
+}
