@@ -27,6 +27,7 @@ brew install discord
 brew install kubectl
 brew install asdf
 brew install mysql-client
+brew install postman
 
 asdf install node
 asdf plugin add nodejs
